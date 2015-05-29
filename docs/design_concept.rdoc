@@ -1,15 +1,15 @@
 #RapidMatter Design Concept
 #Mission Statement: Vendor-Agnostic Enterprise-Architecture-Design-as-a-Service
 #Problems Solved
-    Long time-to-market for expert enterprise infrastructure architecture design
-    Fragmented design documentation
-    Unnecessarily complicated designs
-    Lack of a single repository for designs of an organisation
-    Poor design skills in the market
-    Lack of vendor-agnostic training courses
-    DIY design repositories – eg. SharePoint site with outdated powerpoints, word documents and visio diagrams that no-one reads
-    Absence of supporting documentation
-    Very difficult to validate the efficacy of designed solutions, the tools do not exist, manually intensive and difficult to quantify
+* Long time-to-market for expert enterprise infrastructure architecture design
+* Fragmented design documentation
+* Unnecessarily complicated designs
+* Lack of a single repository for designs of an organisation
+* Poor design skills in the market
+* Lack of vendor-agnostic training courses
+* DIY design repositories – eg. SharePoint site with outdated powerpoints, word documents and visio diagrams that no-one reads
+* Absence of supporting documentation
+* Very difficult to validate the efficacy of designed solutions, the tools do not exist, manually intensive and difficult to quantify
 #Objectives
     To provide a universal language for Enterprise Infrastructure Architecture Design that aligns with the Zachman Framework and CCAr/VCDX/NPX design methodologies.
     To provide the fastest time to market for CCAr/VCDX/NPX-level Enterprise Infrastructure Architecture Design (hours and days, not weeks and months).

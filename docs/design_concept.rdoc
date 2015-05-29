@@ -11,12 +11,46 @@ Mission Statement: Vendor-Agnostic Enterprise-Architecture-Design-as-a-Service f
 * Lack of vendor-agnostic architecture design training courses.
 * Lack of tools to validate the efficacy and risks of designed infrastructure solutions.
 == Objectives
-* 
+* To provide a universal language for Enterprise Infrastructure Architecture Design that aligns with the Zachman Framework and CCAr/VCDX/NPX design methodologies.
+* To provide the fastest time to market for CCAr/VCDX/NPX-level Enterprise Infrastructure Architecture Design (hours and days, not months).
+* To provide the tools to quickly build a complete architecture design with supporting documentation that an implementation team can use to successfully deliver a project.
+* To reduce the risk of bad design and improve the chances of success.
+* To provide a central infrastructure repository of requirements, design decisions and supporting documentation.
+* To provide a continuous central and secure design repository for each registered entity using a common and extensible design methodology.
+* To allow customers, value added resellers and vendors to contribute to the central design database, that will allow the reuse of work product.
+* To allow anyone to build vendor-agnostic designs and translate these into vendor-specific engineering specifications.
+* To allow concurrent, multi-user collaboration on enterprise infrastructure architecture design.
+* To provide a wizard-based design tool that beginners, advanced and expert enterprise architects can easily use.
+* To provide training materials for enterprise infrastructure architecture design.
 == Day 1 Features
-* 
+* Functioning User Interface with User Registration and Project Repository.
+* Functioning Design Wizard with Beginner, Advanced and Expert modes for Private Cloud and Data Center Virtualisation.
+* Functioning Design Database populated with Conceptual Model options (Business Goals, Requirements, Constraints & Assumptions), Logical Design options (Cloud Management Platform, Compute, Network, Storage, Virtual Machine, Security, Backup/Recovery, BC/DR, Virtual Infrastructure Management) and Physical Design options.
+* Initially support Microsoft, VMware, Cisco, EMC and Nutanix engineering specifications for physical design (because I have the expertise to populate the design database with this content and validate it).
+* Functioning Supporting Documents database (Implementation Plan, Configuration Guide, Test Plan, Standard Operating Procedures, Blueprints).
+* Functioning Solution Metrics analysis of each design to measure the chances of success and mitigate risk.
+* Functioning Design Pack Export to PDF for design review and implementation.
+* To have CCAr, VCDX and NPX certified enterprise architects contribute to the design database and supporting documents database.
+* To have architects of every skill level use the solution and provide feedback on bugs and future improvements.
 == Day 2 and Beyond
-* 
+* Support Service Provider Network, Enterprise Network, End User Computing, Hybrid Cloud and Public Cloud design scenarios.
+* Support engineering specifications for Veeam, VMTurbo, Zerto, HP, Netapp, OpenStack, KVM, Dell, Brocade, IBM, Citrix, SimpliVity, Hitachi, Trend Micro, Symantec, Palo Alto Networks, AWS, Google Compute, Microsoft Azure, etc.
+* Highly Available Virtual Appliance or Public Cloud service that can be deployed into an organisation's infrastructure to host the Project Repository with SSL VPN access back to RapidMatter.com for the Design Database and Supporting Documentation Database synchronisation.
+* Vendors can provide a library of pre-validated designs based upon their solution best practices.
+* Solution upgrade design validation (eg. vSphere 5.5 to vSphere 6.0).
+* Vendor Specific filtering (Constraints) - if you have a preference for a particular vendor, all other vendors will be filtered out.
+* Vendors, VARs and Consulting firms can provide design lead and validation services to organisations through Rapid Matter.
+* Cost estimation of completed physical design Bill of Materials
+* Design seeding - import configuration files to start with a draft design of your current infrastructure.
 == Functional Design Concept
-* 
+* Home Page for Information, User Login and User Registration.
+* Profile Management - repository of users, organisations and passwords.
+* Design Database - library of Conceptual Model, Logical Design and Physical Design options.
+* Supporting Documents Database - library of Implementation Tasks, Configuration Tasks, Test Plans and Standard Operating Procedures.
+* Project Repository - user and organisation architecture designs which reference the design and supporting documents databases.
+* Project Export for Review and Implementation - convert a completed project to a set of documents that can be used by an implementation team.
 == Task List
-* 
+* Initially we need developers and software architects to help translate the Functional Design Concept into a software design.  Where will it run?  Probably AWS.  How will it be coded? No idea.  What will it look like? LAMP stack or Micro-services in containers?  Unknown, the closest I have is the Functional Design Concept above.
+* We will also need expert enterprise architects to help populate and validate the design and supporting document databases.  Right now we will use XLSX templates until the databases are functioning, then contributors can do it directly.
+* Once we have a functioning system, we will need architects to test it, play with it and provide feedback.
+* Reach out to me at rene@vcdx133.com if you want to get involved or have any additional questions.

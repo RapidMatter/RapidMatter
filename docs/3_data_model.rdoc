@@ -121,3 +121,4 @@ The Supporting Documentation Database is the repository of Implementation Plans,
 * To be defined
 == Project Blueprints
 * To be defined - probably references to uploaded JPEGs prepared by the customer
+* Future feature - ability to autogenerate diagrams based upon the physical design decisions specified

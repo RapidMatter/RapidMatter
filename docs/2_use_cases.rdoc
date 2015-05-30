@@ -1,1 +1,7 @@
-
+= User Registration
+= Create Project Repository
+= Design Wizard
+* Select Beginner/Advanced/Expert level
+* Select Technology Area (Data Center Virtualisation, Cloud, End User Computing, Service Provider Network, Enterprise Network)
+* Select Hosting Model (Private Cloud, Public Cloud, Hybrid Cloud)
+* 

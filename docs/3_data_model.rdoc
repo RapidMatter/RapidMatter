@@ -69,3 +69,12 @@ The following data models are required for each Database.
 * Justification: <Justification of Logical Design Decision>
 * Impact: <Impact of Logical Design Decision>
 * Risks: <Identified Risks>
+= Supporting Documentation Database
+== Implementation Plans
+* To be defined
+== Configuration Guides
+* To be defined
+== Test Plans
+* To be defined
+== Standard Operating Procedures
+* To be defined

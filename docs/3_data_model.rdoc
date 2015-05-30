@@ -11,9 +11,6 @@ The following data models are required for each Database.
 * Logical Design Decision Options: <Logical Design Options>
 * Logical Design Decision: <Name of Decision>
 * Design Quality: Availability, Manageability, Performance, Recoverability, Security
-* Requirements Reference: <Conceptual Model ID>
-* Requirements Conflict: <None or Yes>
-* Requirements Conflict Resolution: <If yes, explain>
 * Justification: <Justification of Logical Design Decision>
 * Impact: <Impact of Logical Design Decision>
 * Risks: <Identified Risks>
@@ -26,7 +23,47 @@ The following data models are required for each Database.
 * Physical Design Decision Options: <Physical Design Options>
 * Physical Design Decision: <Name of Decision>
 * Design Quality: Availability, Manageability, Performance, Recoverability, Security
-* Requirements Reference: <Conceptual Model ID or Logical Deisgn Decision ID>
+* Justification: <Justification of Logical Design Decision>
+* Impact: <Impact of Logical Design Decision>
+* Risks: <Identified Risks>
+= Project Repository
+== Customer Object
+* Customer ID: <Unique Customer ID>
+* Project Name: <Project Name>
+* Permissions: <RBAC>
+* State: <Draft, Review, Released>
+* Project Description: <Project Description>
+* Tags: <Unique Tags>
+== Project Conceptual Model Object
+* Project Conceptual Model ID: <Unique to Project and Customer>
+* Linked ID: <Global Unique Identifier of Object>
+* Title: <Name of Object>
+* Description: <Description of Object>
+* Type: Requirement, Constraint or Assumption
+* Design Quality: Availability, Manageability, Performance, Recoverability, Security
+== Project Logical Design Decision Object
+* Project Logical Design Decision ID: <Unique to Project and Customer>
+* Linked ID: <Global Unique Identifier of Object>
+* Logical Design Decision Options: <Logical Design Options>
+* Logical Design Decision: <Name of Decision>
+* Design Quality: Availability, Manageability, Performance, Recoverability, Security
+* Requirements Conflict: <None or Yes>
+* Requirements Reference: <Project Conceptual Model Reference>
+* Requirements Conflict Resolution: <If yes, explain>
+* Justification: <Justification of Logical Design Decision>
+* Impact: <Impact of Logical Design Decision>
+* Risks: <Identified Risks>
+== Project Physical Design Decision Object
+* Project Physical Design Decision ID: <Unique to Project and Customer>
+* Linked ID: <Global Unique Identifier of Object>
+* Vendor: <Name of Vendor>
+* Product Suite: <Name of Product Suite>
+* Product: <Name of Product>
+* Version: <Version of Product>
+* Physical Design Decision Options: <Physical Design Options>
+* Physical Design Decision: <Name of Decision>
+* Design Quality: Availability, Manageability, Performance, Recoverability, Security
+* Requirements Reference: <Project Conceptual Model Reference or Logical Design Decision Reference>
 * Requirements Conflict: <None or Yes>
 * Requirements Conflict Resolution: <If yes, explain>
 * Justification: <Justification of Logical Design Decision>

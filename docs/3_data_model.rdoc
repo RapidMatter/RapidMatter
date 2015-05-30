@@ -1,6 +1,6 @@
 The following data models are required for each Database.
-= Design Database
-The Design Database is the repository of candidate design choices for each architecture design project.  This is a body of knowledge and wisdom that is maintained by the expert enterprise architects.
+= Design Library Database
+The Design Library Database is the repository of candidate design choices for each architecture design project.  This is a body of knowledge and wisdom that is maintained by the expert enterprise architects.
 == Conceptual Model Object
 * ID: <Global Unique Identifier of Object>
 * Title: <Name of Object>
@@ -13,15 +13,15 @@ The Design Database is the repository of candidate design choices for each archi
 == Logical Design Decision Object
 * ID: <Global Unique Identifier of Object>
 * Logical Design Decision Options: <Logical Design Options>
-* Logical Design Decision: <Name of Decision>
-* Design Quality: Availability, Manageability, Performance, Recoverability, Security
-* Justification: <Justification of Logical Design Decision>
-* Impact: <Impact of Logical Design Decision>
-* Risks: <Identified Risks>
-* Diagram: <Link to JPG of Logical Design Decision>
-* Change Control: <Draft, Approved, etc.>
-* Tags: <Tag Text>
-* Notes: <Text>
+* Logical Design Decision 1..n : <Name of Decision>
+* Design Quality 1..n : Availability, Manageability, Performance, Recoverability, Security
+* Justification 1..n : <Justification of Logical Design Decision>
+* Impact 1..n : <Impact of Logical Design Decision>
+* Risks 1..n : <Identified Risks>
+* Diagram 1..n : <Link to JPG of Logical Design Decision>
+* Change Control 1..n : <Draft, Approved, etc.>
+* Tags 1..n : <Tag Text>
+* Notes 1..n : <Text>
 == Physical Design Decision Object
 * ID: <Global Unique Identifier of Object>
 * Vendor: <Name of Vendor>
@@ -29,22 +29,22 @@ The Design Database is the repository of candidate design choices for each archi
 * Product: <Name of Product>
 * Version: <Version of Product>
 * Physical Design Decision Options: <Physical Design Options>
-* Physical Design Decision: <Name of Decision>
-* Design Quality: Availability, Manageability, Performance, Recoverability, Security
-* Justification: <Justification of Logical Design Decision>
-* Impact: <Impact of Logical Design Decision>
-* Risks: <Identified Risks>
-* Diagram: <Link to JPG of Physical Design Decision>
-* Implementation Task: <Implementation Task Reference>
-* Configuration Guide: <Configuration Guide Reference>
-* Test Plan: <Test Plan Reference - Functional, Integration, Recovery, Performance>
-* Standard Operating Procedure: <SOP Reference>
-* Change Control: <Draft, Approved, etc.>
-* Tags: <Tag Text>
-* Notes: <Text>
+* Physical Design Decision 1..n : <Name of Decision>
+* Design Quality 1..n : Availability, Manageability, Performance, Recoverability, Security
+* Justification 1..n : <Justification of Logical Design Decision>
+* Impact 1..n : <Impact of Logical Design Decision>
+* Risks 1..n : <Identified Risks>
+* Diagram 1..n : <Link to JPG of Physical Design Decision>
+* Implementation Task 1..n : <Implementation Task Reference>
+* Configuration Guide 1..n : <Configuration Guide Reference>
+* Test Plan 1..n : <Test Plan Reference - Functional, Integration, Recovery, Performance>
+* Standard Operating Procedure 1..n : <SOP Reference>
+* Change Control 1..n : <Draft, Approved, etc.>
+* Tags 1..n : <Tag Text>
+* Notes 1..n : <Text>
 = Project Repository
-The Project Repository is the private design repository for each customer.  Each customer can build a design using the predefined and verified Design Database or create their own objects that will remain in the Project Repository.
-If an architect wants to share their Project Repository design decisions outside of their organisation, they will will have to follow the the Collaboration process to add their objects to the Design Database for review.
+The Project Repository is the private design repository for each customer.  Each customer can build a design using the predefined and verified Design Database or create their own objects that will remain in their Project Repository.
+If an architect wants to share their Project Repository design decisions outside of their organisation, they will will have to follow the the Collaboration process to add their objects to the Design Library Database for review.
 == Customer Object
 * Customer ID: <Unique Customer ID>
 * Project Name: <Project Name>
@@ -59,6 +59,9 @@ If an architect wants to share their Project Repository design decisions outside
 * Description: <Description of Object>
 * Type: Business Goal, Requirement, Constraint or Assumption
 * Design Quality: Availability, Manageability, Performance, Recoverability, Security
+* Requirements Conflict: <None or Yes>
+* Requirements Reference: <Optional - Project Conceptual Model Business Goal Reference>
+* Requirements Conflict Resolution: <If yes, explain>
 * Change Control: <Draft, Approved, etc.>
 * Tag: <Tag Text>
 * Notes: <Text>
@@ -110,9 +113,11 @@ The Supporting Documentation Database is the repository of Implementation Plans,
 * To be defined
 == Configuration Guides
 * To be defined
-* Need to decide how and where for the configuration settings.
+* Need to decide how and where for the Configuration settings.
 * Need to decide how and where for the Bill of Materials.
 == Test Plans
 * To be defined
 == Standard Operating Procedures
 * To be defined
+== Project Blueprints
+* To be defined - probably references to uploaded JPEGs prepared by the customer

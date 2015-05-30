@@ -46,8 +46,8 @@ Mission Statement: Vendor-Agnostic Enterprise-Architecture-Design-as-a-Service f
 https://vcdx133.files.wordpress.com/2015/05/rapidmatter_logical_design_concept1.jpg
 * Home Page for Information, User Login and User Registration.
 * Profile Management - repository of users, organisations and passwords.
-* Design Database - library of Conceptual Model, Logical Design and Physical Design options.
-* Supporting Documents Database - library of Implementation Tasks, Configuration Tasks, Test Plans and Standard Operating Procedures.
+* Design Library - repository of Conceptual Model, Logical Design and Physical Design options.
+* Supporting Documents Library - library of Implementation Tasks, Configuration Tasks, Test Plans and Standard Operating Procedures.
 * Project Repository - user and organisation architecture designs which reference the design and supporting documents databases.
 * Project Export for Review and Implementation - convert a completed project to a set of documents that can be used by an implementation team.
 == Task List

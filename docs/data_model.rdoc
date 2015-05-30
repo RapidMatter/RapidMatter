@@ -1,0 +1,37 @@
+Conceptual Model Object
+
+ID: <Global Unique Identifier of Object>
+Title: <Name of Object>
+Description: <Description of Object>
+Type: Requirement, Constraint or Assumption
+Design Quality: Availability, Manageability, Performance, Recoverability, Security
+
+Logical Design Decision Object
+
+ID: <Global Unique Identifier of Object>
+Logical Design Decision Options: <Logical Design Options>
+Logical Design Decision: <Name of Decision>
+Design Quality: Availability, Manageability, Performance, Recoverability, Security
+Requirements Reference: <Conceptual Model ID>
+Requirements Conflict: <None or Yes>
+Requirements Conflict Resolution: <If yes, explain>
+Justification: <Justification of Logical Design Decision>
+Impact: <Impact of Logical Design Decision>
+Risks: <Identified Risks>
+
+Physical Design Decision Object
+
+ID: <Global Unique Identifier of Object>
+Vendor: <Name of Vendor>
+Product Suite: <Name of Product Suite>
+Product: <Name of Product>
+Version: <Version of Product>
+Physical Design Decision Options: <Physical Design Options>
+Physical Design Decision: <Name of Decision>
+Design Quality: Availability, Manageability, Performance, Recoverability, Security
+Requirements Reference: <Conceptual Model ID or Logical Deisgn Decision ID>
+Requirements Conflict: <None or Yes>
+Requirements Conflict Resolution: <If yes, explain>
+Justification: <Justification of Logical Design Decision>
+Impact: <Impact of Logical Design Decision>
+Risks: <Identified Risks>

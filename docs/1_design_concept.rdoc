@@ -43,7 +43,7 @@ Mission Statement: Vendor-Agnostic Enterprise-Architecture-Design-as-a-Service f
 * Cost estimation of completed physical design Bill of Materials
 * Design seeding - import configuration files to start with a draft design of your current infrastructure.
 == Functional Design Concept
-https://vcdx133.files.wordpress.com/2015/05/rapidmatter_logical_design_concept1.jpg
+https://vcdx133.files.wordpress.com/2015/06/rapidmatter_logical_design_concept.jpg
 * Home Page for Information, User Login and User Registration.
 * Profile Management - repository of users, organisations and passwords.
 * Design Library - repository of Conceptual Model, Logical Design and Physical Design options.

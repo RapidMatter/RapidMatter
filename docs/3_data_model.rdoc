@@ -4,8 +4,11 @@ The following data models are required for each Database.
 * ID: <Global Unique Identifier of Object>
 * Title: <Name of Object>
 * Description: <Description of Object>
-* Type: Requirement, Constraint or Assumption
+* Type: Business Goal, Requirement, Constraint or Assumption
 * Design Quality: Availability, Manageability, Performance, Recoverability, Security
+* Change Control: <Draft, Approved, etc.>
+* Tags: <Tag Text>
+* Notes: <Text>
 == Logical Design Decision Object
 * ID: <Global Unique Identifier of Object>
 * Logical Design Decision Options: <Logical Design Options>
@@ -15,6 +18,9 @@ The following data models are required for each Database.
 * Impact: <Impact of Logical Design Decision>
 * Risks: <Identified Risks>
 * Diagram: <Link to JPG of Logical Design Decision>
+* Change Control: <Draft, Approved, etc.>
+* Tags: <Tag Text>
+* Notes: <Text>
 == Physical Design Decision Object
 * ID: <Global Unique Identifier of Object>
 * Vendor: <Name of Vendor>
@@ -32,6 +38,9 @@ The following data models are required for each Database.
 * Configuration Guide: <Configuration Guide Reference>
 * Test Plan: <Test Plan Reference - Functional, Integration, Recovery, Performance>
 * Standard Operating Procedure: <SOP Reference>
+* Change Control: <Draft, Approved, etc.>
+* Tags: <Tag Text>
+* Notes: <Text>
 = Project Repository
 == Customer Object
 * Customer ID: <Unique Customer ID>
@@ -39,14 +48,17 @@ The following data models are required for each Database.
 * Permissions: <RBAC>
 * State: <Draft, Review, Released>
 * Project Description: <Project Description>
-* Tags: <Unique Tags>
+* Tags: <Tag Text>
 == Project Conceptual Model Object
 * Project Conceptual Model ID: <Unique to Project and Customer>
 * Linked ID: <Global Unique Identifier of Object>
 * Title: <Name of Object>
 * Description: <Description of Object>
-* Type: Requirement, Constraint or Assumption
+* Type: Business Goal, Requirement, Constraint or Assumption
 * Design Quality: Availability, Manageability, Performance, Recoverability, Security
+* Change Control: <Draft, Approved, etc.>
+* Tag: <Tag Text>
+* Notes: <Text>
 == Project Logical Design Decision Object
 * Project Logical Design Decision ID: <Unique to Project and Customer>
 * Linked ID: <Global Unique Identifier of Object>
@@ -60,6 +72,9 @@ The following data models are required for each Database.
 * Impact: <Impact of Logical Design Decision>
 * Risks: <Identified Risks>
 * Diagram: <Link to JPG of Logical Design Decision>
+* Change Control: <Draft, Approved, etc.>
+* Tag: <Tag Text>
+* Notes: <Text>
 == Project Physical Design Decision Object
 * Project Physical Design Decision ID: <Unique to Project and Customer>
 * Linked ID: <Global Unique Identifier of Object>
@@ -81,6 +96,9 @@ The following data models are required for each Database.
 * Configuration Guide: <Configuration Guide Reference>
 * Test Plan: <Test Plan Reference - Functional, Integration, Recovery, Performance>
 * Standard Operating Procedure: <SOP Reference>
+* Change Control: <Draft, Approved, etc.>
+* Tag: <Tag Text>
+* Notes: <Text>
 = Supporting Documentation Database
 == Implementation Plans
 * To be defined

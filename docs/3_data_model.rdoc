@@ -102,12 +102,16 @@ If an architect wants to share their Project Repository design decisions outside
 * Change Control: <Draft, Approved, etc.>
 * Tag: <Tag Text>
 * Notes: <Text>
+== Risks
+* Need to decide how to collate risk information and show risk mitigation through SOPs, Tests, etc.
 = Supporting Documentation Database
 The Supporting Documentation Database is the repository of Implementation Plans, Configuration Guides, Test Plans and Standard Operating procedures.  These match the Physical Design decisions of each project with a one-to-one or one-to-many relationship.
 == Implementation Plans
 * To be defined
 == Configuration Guides
 * To be defined
+* Need to decide how and where for the configuration settings.
+* Need to decide how and where for the Bill of Materials.
 == Test Plans
 * To be defined
 == Standard Operating Procedures

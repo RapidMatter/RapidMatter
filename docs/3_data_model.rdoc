@@ -1,5 +1,6 @@
 The following data models are required for each Database.
 = Design Database
+The Design Database is the repository of candidate design choices for each architecture design project.  This is a body of knowledge and wisdom that is maintained by the expert enterprise architects.
 == Conceptual Model Object
 * ID: <Global Unique Identifier of Object>
 * Title: <Name of Object>
@@ -42,6 +43,8 @@ The following data models are required for each Database.
 * Tags: <Tag Text>
 * Notes: <Text>
 = Project Repository
+The Project Repository is the private design repository for each customer.  Each customer can build a design using the predefined and verified Design Database or create their own objects that will remain in the Project Repository.
+If an architect wants to share their Project Repository design decisions outside of their organisation, they will will have to follow the the Collaboration process to add their objects to the Design Database for review.
 == Customer Object
 * Customer ID: <Unique Customer ID>
 * Project Name: <Project Name>
@@ -100,6 +103,7 @@ The following data models are required for each Database.
 * Tag: <Tag Text>
 * Notes: <Text>
 = Supporting Documentation Database
+The Supporting Documentation Database is the repository of Implementation Plans, Configuration Guides, Test Plans and Standard Operating procedures.  These match the Physical Design decisions of each project with a one-to-one or one-to-many relationship.
 == Implementation Plans
 * To be defined
 == Configuration Guides

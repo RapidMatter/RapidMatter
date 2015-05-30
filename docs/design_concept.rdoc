@@ -52,6 +52,6 @@ https://vcdx133.files.wordpress.com/2015/05/rapidmatter_logical_design_concept1.
 * Project Export for Review and Implementation - convert a completed project to a set of documents that can be used by an implementation team.
 == Task List
 * Initially we need developers and software architects to help translate the Functional Design Concept into a software design.  Where will it run?  Probably AWS.  How will it be coded? No idea.  What will it look like? LAMP stack or Micro-services in containers?  Unknown, the closest I have is the Functional Design Concept above.
-* We will also need expert enterprise architects to help populate and validate the design and supporting document databases.  Right now we will use XLSX templates until the databases are functioning, then contributors can do it directly.
+* We will also need expert enterprise architects to help populate and validate the design and supporting document databases.  Initially we will use XLSX templates until the databases are functioning, then contributors can do it directly.
 * Once we have a functioning system, we will need architects to test it, play with it and provide feedback.
 * Reach out to me at rene@vcdx133.com if you want to get involved or have any additional questions.

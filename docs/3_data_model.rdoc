@@ -26,6 +26,10 @@ The following data models are required for each Database.
 * Justification: <Justification of Logical Design Decision>
 * Impact: <Impact of Logical Design Decision>
 * Risks: <Identified Risks>
+* Implementation Task: <Implementation Task Reference>
+* Configuration Guide: <Configuration Guide Reference>
+* Test Plan: <Test Plan Reference - Functional, Integration, Recovery, Performance>
+* Standard Operating Procedure: <SOP Reference>
 = Project Repository
 == Customer Object
 * Customer ID: <Unique Customer ID>
@@ -69,6 +73,10 @@ The following data models are required for each Database.
 * Justification: <Justification of Logical Design Decision>
 * Impact: <Impact of Logical Design Decision>
 * Risks: <Identified Risks>
+* Implementation Task: <Implementation Task Reference>
+* Configuration Guide: <Configuration Guide Reference>
+* Test Plan: <Test Plan Reference - Functional, Integration, Recovery, Performance>
+* Standard Operating Procedure: <SOP Reference>
 = Supporting Documentation Database
 == Implementation Plans
 * To be defined

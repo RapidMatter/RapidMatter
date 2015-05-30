@@ -5,7 +5,7 @@ Mission Statement: Vendor-Agnostic Enterprise-Architecture-Design-as-a-Service f
 * Fragmented and incomplete design documentation.
 * Absence of supporting documentation.
 * Unnecessarily complicated designs.
-* Lack of a central, best of breed repository for the designs of any organisation.
+* Lack of a central, best-of-breed repository for the designs of any organisation.
 * Lack of architecture design continuity over time.
 * Weak design skills in the industry.
 * Lack of vendor-agnostic architecture design training courses.

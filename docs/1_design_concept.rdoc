@@ -16,7 +16,7 @@ Mission Statement: Vendor-Agnostic Enterprise-Architecture-Design-as-a-Service f
 * To provide the tools to quickly build a complete architecture design with supporting documentation that an implementation team can use to successfully deliver a project.
 * To reduce the risk of bad design and improve the chances of success.
 * To provide a central infrastructure repository of requirements, design decisions and supporting documentation.
-* To provide a continuous central and secure design repository for each registered entity using a common and extensible design methodology.
+* To provide a continuous, central and secure design repository for each registered entity using a common and extensible design methodology.
 * To allow customers, value added resellers and vendors to contribute to the central design database, that will allow the reuse of work product.
 * To allow anyone to build vendor-agnostic designs and translate these into vendor-specific engineering specifications.
 * To allow concurrent, multi-user collaboration on enterprise infrastructure architecture design.

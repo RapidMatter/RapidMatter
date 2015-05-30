@@ -4,4 +4,8 @@
 * Select Beginner/Advanced/Expert level
 * Select Technology Area (Data Center Virtualisation, Cloud, End User Computing, Service Provider Network, Enterprise Network)
 * Select Hosting Model (Private Cloud, Public Cloud, Hybrid Cloud)
-* 
+* Select Conceptual Model options from the Design Database (Business Goals, Requirements, Constraints, Assumptions)
+* Select Logical Design options from the Design Database
+* Reference each Logical Design decision to the Project Conceptual Model
+* Select Physical Design options from the Design Database
+* Reference each Physical Design decision to the Project Conceptual Model and Logical Design

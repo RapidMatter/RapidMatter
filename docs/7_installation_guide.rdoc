@@ -1,1 +1,1 @@
-Describes how to install, configure and run the RapidMatter software on the correct platform (whatever that may be).
+Describes how to install, configure and run the RapidMatter software on the appropriate platform and start providing Enterprise-Architecture-Design-as-a-Service to your lab/users/company/organisation.

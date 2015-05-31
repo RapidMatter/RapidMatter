@@ -55,8 +55,8 @@ The Supporting Documentation Library is the repository of Implementation Plans, 
 == Standard Operating Procedures
 * To be defined
 = Project Repository (only available to the owner)
-The Project Repository is the private design repository for each customer.  Each customer can build a design using the predefined and verified Design Database or create their own objects that will remain in their Project Repository.
-If an architect wants to share their Project Repository design decisions outside of their organisation, they will will have to follow the the Collaboration process to add their objects to the Design Library Database for review.
+The Project Repository is the private design repository for each customer.  Each customer can build a design using the predefined and verified Design Library or create their own objects that will remain in their Project Repository.
+If an architect wants to share their Project Repository design decisions outside of their organisation, they will will have to follow the the Collaboration process to add their objects to the Design Library for review.
 == Customer Object
 * Customer ID: <Unique Customer ID>
 * Project Name: <Project Name>

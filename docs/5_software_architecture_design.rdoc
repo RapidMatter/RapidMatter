@@ -1,1 +1,1 @@
-
+Describes the software architecture design of RapidMatter with the Design Concept and Use-Cases as initial requirements.  Application and Database platform needs to be defined.

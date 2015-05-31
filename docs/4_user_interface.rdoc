@@ -1,1 +1,3 @@
-
+Initial Thoughts:
+* HTML5, flash-free, java-free UI
+* Very simple and easy to use interface

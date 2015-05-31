@@ -1,1 +1,1 @@
-
+Describes how to install, configure and run the RapidMatter software on the correct platform (whatever that may be).

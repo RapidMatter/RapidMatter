@@ -1,12 +1,12 @@
 This is the Day-1 prototype use case:
-= Use Design Wizard for Solution Design and Export for Implementation
+= Use Design Wizard for Solution Design, Solution Metrics check and Export for Implementation
 * User Registration and Login
 * Create a Project Repository
 * Start the Design Wizard
 * Enter Project Name and Description
-* Select Beginner/Advanced/Expert level of design
-* Select Technology Area (Data Center Virtualisation, Cloud, End User Computing, Service Provider Network, Enterprise Network)
-* Select Hosting Model (Private Cloud, Public Cloud, Hybrid Cloud)
+* Select Beginner/Advanced/Expert level of design (Expert-level only on Day-1)
+* Select Technology Area (Data Center Virtualisation, Cloud, End User Computing, Service Provider Network, Enterprise Network) - (DCV and Cloud only on Day-1)
+* Select Hosting Model (Private Cloud, Public Cloud, Hybrid Cloud) - (Private Cloud only on Day-1)
 * Select any preferred Vendors from the Vendor filter (if used, they become Constraints)
 * Select Conceptual Model options from the Design Database (Business Goals, Requirements, Constraints, Assumptions)
 * Select Logical Design options from the Design Database

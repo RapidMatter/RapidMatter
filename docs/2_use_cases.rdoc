@@ -1,4 +1,4 @@
-This is the Day-1 prototype use case:
+These are the Day-1 prototype use cases:
 = Use Design Wizard for Solution Design, Solution Metrics check and Export for Implementation
 * User Registration and Login
 * Create a Project Repository
@@ -17,3 +17,12 @@ This is the Day-1 prototype use case:
 * Close the Design Wizard
 * Execute the Solution Metrics to find design weaknesses
 * Export the Enterprise Architecture Design as a document set for Implementation
+= Design & Supporting Documents Library Collaboration
+* User Registration and Login
+* Create a Project Repository
+* Create and populate Conceptual Model, Logical Design and Physical Design objects for submission to the Design Library in Draft status for review.
+* Create and populate Supporting Documentation objects for submission to the Supporting Documents Library in Draft status for review.
+= Design & Supporting Documents Library Review
+* User Registration and Login
+* Review and approve/modify/reject/return Conceptual Model, Logical Design and Physical Design objects for inclusion in the Design Library.
+* Review and approve/modify/reject/return Supporting Documentation objects for inclusion in the Supporting Documents Library.

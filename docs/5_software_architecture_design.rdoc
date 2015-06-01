@@ -1,1 +1,11 @@
 Describes the software architecture design of RapidMatter with the Design Concept and Use-Cases as initial requirements.  Application and Database platform needs to be defined.
+
+Thoughts on specifications:
+* Build on scalable multi-master DB (e.g. MariaDB) or scale-out NoSQL platform (e.g. MongoDB)
+* Built OOB as N-Tier. Can be single container/vm/instance, but must be loosely coupled and use queuing to scale later
+* Queue platform needed (e.g. RabbitMQ)
+* Built with all open source tools :)
+* Built to run in container platform(s) for ease-of-deployment and hosting flexibility
+* Language TBD. Options could include (but not limited to) Ruby on Rails, Scala, or other
+* Provide RESTful API 
+

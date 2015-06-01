@@ -14,6 +14,8 @@ These are the Day-1 prototype use cases:
 * Select Physical Design options from the Design Database
 * Reference each Physical Design decision to the Project Conceptual Model and Logical Design
 * Select individual Supporting Documents entries for each Physical Design decision or accept the default mapping as per the Design Library
+* Save project during editing
+* Open saved project from saved session list
 * Close the Design Wizard
 * Execute the Solution Metrics to find design weaknesses
 * Export the Enterprise Architecture Design as a document set for Implementation

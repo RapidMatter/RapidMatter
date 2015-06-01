@@ -1,6 +1,6 @@
 Describes how to install, configure and run the RapidMatter software on the appropriate platform and start providing Enterprise-Architecture-Design-as-a-Service to your lab/users/company/organisation.
 * URLs for all software components of the solution
-* Instructions on how to build the platform and get it ready
+* Instructions on how to build the platform and get it ready (On-Prem and Public Cloud)
 * Instructions on how to compile/install the RapidMatter code
 * Instructions on how to bring the RapidMatter software online and start serving customers
 == Separate documents

@@ -184,7 +184,21 @@ If an architect wants to share their Project Repository design decisions outside
 == Configuration Settings (companion to Configuration Guide)
 * To be defined (specific project configuration settings)
 == Project Solution Metrics
-* To be defined
+* Analysis 1 - Conceptual Model numerical totals of Business Goals, Requirements, Constraints and Assumptions
+https://vcdx133.files.wordpress.com/2015/06/rapidmatter_solution_metrics_1.jpg
+* Analysis 2 - Design Quality (RAMPS) numerical totals from Conceptual Mode, Logical Design and Physical Design
+https://vcdx133.files.wordpress.com/2015/06/rapidmatter_solution_metrics_2.jpg
+* Analysis 3 - Technology Area versus Design Area numberical totals for Logical Designs decisions, Physical Design decisions, Requirements Conflicts, Risks, Implementation Tasks, Configuration Tasks, Tests and SOPs
+https://vcdx133.files.wordpress.com/2015/06/rapidmatter_solution_metrics_3.jpg
+* Analysis 4 - Design Qualities with respect to individual Logical Design decisions and Physical Design decisions
+https://vcdx133.files.wordpress.com/2015/06/rapidmatter_solution_metrics_4.jpg
+* Analysis 5 - Requirements Matrix map of Conceptual Model to Logical and Physical Design decisions
+https://vcdx133.files.wordpress.com/2015/06/rapidmatter_solution_metrics_5.jpg
+* Analysis 6 - Requirements Matrix map of Logical Design decisions to Physical Design decisions
+https://vcdx133.files.wordpress.com/2015/06/rapidmatter_solution_metrics_6.jpg
+* Analysis 7 - Supporting Documents matrix map of Physical Design decisions to Implementation Tasks, Configuration Tasks, Tests and SOPs
+https://vcdx133.files.wordpress.com/2015/06/rapidmatter_solution_metrics_7.jpg
+* Day-2: Analysis 8 - Design Score Rating - some mechanism to rate the complexity/simplicity of the design heuristically against some model/algorithm
 == Project Blueprints
 * Day-1: Reference uploaded JPEGs manually prepared by the project architect
 * Future feature - ability to autogenerate diagrams based upon the physical design decisions specified

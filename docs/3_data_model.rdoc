@@ -10,6 +10,8 @@ The Design Library is the repository of candidate design choices for each archit
 * Change Control: <Draft, Approved, etc.>
 * Tags: <Tag Text>
 * Notes: <Text>
+* Author: <Profile ID>
+* Reviewer: <Profile ID>
 == Logical Design Decision Object
 * ID: <Global Unique Identifier of Object>
 * Technology Area: Compute, Network, Storage, Backup/Recovery, Virtual Machine, Security, BC/DR, Virtual Infrastructure Management, Cloud Management Platform, End User Computing, etc.
@@ -20,9 +22,12 @@ The Design Library is the repository of candidate design choices for each archit
 * Impact 1..n : <Impact of Logical Design Decision>
 * Risks 1..n : <Identified Risks>
 * Diagram 1..n : <Link to JPG of Logical Design Decision>
+Day-1: Need to decide how to handle images for all objects.
 * Change Control 1..n : <Draft, Approved, etc.>
 * Tags 1..n : <Tag Text>
 * Notes 1..n : <Text>
+* Author: <Profile ID>
+* Reviewer: <Profile ID>
 == Physical Design Decision Object
 * ID: <Global Unique Identifier of Object>
 * Technology Area: Compute, Network, Storage, Backup/Recovery, Virtual Machine, Security, BC/DR, Virtual Infrastructure Management, Cloud Management Platform, End User Computing, etc.
@@ -44,16 +49,60 @@ The Design Library is the repository of candidate design choices for each archit
 * Change Control 1..n : <Draft, Approved, etc.>
 * Tags 1..n : <Tag Text>
 * Notes 1..n : <Text>
+* Author: <Profile ID>
+* Reviewer: <Profile ID>
 = Supporting Documentation Library (available to every user)
 The Supporting Documentation Library is the repository of Implementation Plans, Configuration Guides, Test Plans and Standard Operating procedures.  These match the Physical Design decisions of each project with a one-to-one or one-to-many relationship.
 == Implementation Plans
-* To be defined
+* ID: <Global Unique Identifier of Object>
+* Task Name : <Text>
+* Task Description : <Text>
+* Task Duration : <Hours, Days, Weeks, Months>
+* Change Control: <Draft, Approved, etc.>
+* Tags 1..n : <Tag Text>
+* Notes 1..n : <Text>
+* Author: <Profile ID>
+* Reviewer: <Profile ID>
 == Configuration Guides
-* To be defined (Links to public URLs and custom procedures if necessary)
+* ID: <Global Unique Identifier of Object>
+* Configuration Task Name : <Text>
+* Configuration Task Description : <Text>
+* Configuration Task Reference : <Public URL>
+* Configuration Task : <If no Public URL, task instructions>
+* Diagram 1..n : <Link to JPG of Configuration Item>
+* Change Control: <Draft, Approved, etc.>
+* Tags 1..n : <Tag Text>
+* Notes 1..n : <Text>
+* Author: <Profile ID>
+* Reviewer: <Profile ID>
 == Test Plans
-* To be defined (Functional, Integration, Recovery and Performance)
+* ID: <Global Unique Identifier of Object>
+* Test Type : Functional, Integration, Recovery, Performance
+* Test Name : <Text>
+* Test Description : <Text>
+* Expected Test Result : <Text>
+* Actual Test Result : Pass, Fail
+* Test Reference : <Public URL>
+* Test Instructions : <If no Public URL, test instructions: Purpose, Prerequisites, Precondition, Test Steps, Test Data, Postcondition, References>
+* Diagram 1..n : <Link to JPG of Test>
+* Change Control: <Draft, Approved, etc.>
+* Tags 1..n : <Tag Text>
+* Notes 1..n : <Text>
+* Author: <Profile ID>
+* Reviewer: <Profile ID>
 == Standard Operating Procedures
-* To be defined
+* ID: <Global Unique Identifier of Object>
+* SOP Name : <Text>
+* SOP Description : <Text>
+* SOP Frequency : <Hourly, Daily, Weekly, Monthly, Yearly>
+* SOP Reference : <Public URL>
+* SOP Instructions : <If no Public URL, SOP instructions: Purpose, Scope, Prerequisites, Responsibilities, Procedure, References>
+* Diagram 1..n : <Link to JPG of SOP>
+* Change Control: <Draft, Approved, etc.>
+* Tags 1..n : <Tag Text>
+* Notes 1..n : <Text>
+* Author: <Profile ID>
+* Reviewer: <Profile ID>
 = Project Repository (only available to the owner)
 The Project Repository is the private design repository for each customer.  Each customer can build a design using the predefined and verified Design Library or create their own objects that will remain in their Project Repository.
 If an architect wants to share their Project Repository design decisions outside of their organisation, they will will have to follow the the Collaboration process to add their objects to the Design Library for review.
@@ -77,6 +126,8 @@ If an architect wants to share their Project Repository design decisions outside
 * Change Control: <Draft, Approved, etc.>
 * Tag: <Tag Text>
 * Notes: <Text>
+* Author: <Profile ID>
+* Reviewer: <Profile ID>
 == Project Logical Design Decision Object
 * Project Logical Design Decision ID: <Unique to Project and Customer>
 * Linked ID: <Global Unique Identifier of Object>
@@ -94,6 +145,8 @@ If an architect wants to share their Project Repository design decisions outside
 * Change Control: <Draft, Approved, etc.>
 * Tag: <Tag Text>
 * Notes: <Text>
+* Author: <Profile ID>
+* Reviewer: <Profile ID>
 == Project Physical Design Decision Object
 * Project Physical Design Decision ID: <Unique to Project and Customer>
 * Linked ID: <Global Unique Identifier of Object>
@@ -114,19 +167,24 @@ If an architect wants to share their Project Repository design decisions outside
 * Diagram: <Link to JPG of Physical Design Decision>
 * Implementation Task: <Implementation Task Reference>
 * Configuration Guide: <Configuration Guide Reference>
+* Configuration Settings: <Configuration Settings Reference>
 * Test Plan: <Test Plan Reference - Functional, Integration, Recovery, Performance>
 * Standard Operating Procedure: <SOP Reference>
 * Change Control: <Draft, Approved, etc.>
 * Tag: <Tag Text>
 * Notes: <Text>
+* Author: <Profile ID>
+* Reviewer: <Profile ID>
 == Project Risks
-* Need to decide how to collate risk information and show risk mitigation through SOPs, Tests, etc.
+* Day-1: Risk field of each design decision will be collated into a single Risk object for the project with a manual field for defining Risk mitigation.
+* Day-2: Need to decide how to collate risk information and show risk mitigation through SOPs, Tests, etc.
 == Bill of Materials
-* Need to decide how to automatically roll up the hardware, software and licencing quantities.
+* Day-1: probably will be a manual list
+* Day-2: Need to decide how to automatically roll up the hardware, software and licencing quantities.
 == Configuration Settings (companion to Configuration Guide)
 * To be defined (specific project configuration settings)
 == Project Solution Metrics
 * To be defined
 == Project Blueprints
-* To be defined - probably references to uploaded JPEGs prepared by the project architect
+* Day-1: Reference uploaded JPEGs manually prepared by the project architect
 * Future feature - ability to autogenerate diagrams based upon the physical design decisions specified

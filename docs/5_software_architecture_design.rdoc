@@ -1,11 +1,27 @@
 Describes the software architecture design of RapidMatter with the Design Concept and Use-Cases as initial requirements.  Application and Database platform needs to be defined.
-
-Thoughts on specifications:
-* Build on scalable multi-master DB (e.g. MariaDB) or scale-out NoSQL platform (e.g. MongoDB)
-* Built OOB as N-Tier. Can be single container/vm/instance, but must be loosely coupled and use queuing to scale later
-* Queue platform needed (e.g. RabbitMQ)
-* Built with all open source tools :)
-* Built to run in container platform(s) for ease-of-deployment and hosting flexibility
-* Language TBD. Options could include (but not limited to) Ruby on Rails, Scala, or other
-* Provide RESTful API 
-
+= Conceptual Model
+== Software Design Business Goals
+* Anyone can build this on their PC/VM/Cloud with free tools/open-source software
+== Software Design Requirements
+* R1 - Build on scalable multi-master DB (e.g. MariaDB) or scale-out NoSQL platform (e.g. MongoDB)
+* R2 - Built OOB as N-Tier. Can be single container/vm/instance, but must be loosely coupled and use queuing to scale later
+* R3 - Queue platform needed (e.g. RabbitMQ)
+* R4 - Built with all open source tools.
+* R5 - Built to run in container platform(s) for ease-of-deployment and hosting flexibility
+* R6 - Language TBD. Options could include (but not limited to) Ruby on Rails, Scala, or other
+* R7 - Provide RESTful API
+== Software Design Constraints
+== Software Design Assumptions
+= Logical Design
+Functional Design described here: https://github.com/RapidMatter/RapidMatter/blob/master/docs/1_design_concept.rdoc
+Use-Cases described here: https://github.com/RapidMatter/RapidMatter/blob/master/docs/2_use_cases.rdoc
+UI interface described here: https://github.com/RapidMatter/RapidMatter/blob/master/docs/4_user_interface.rdoc
+* Logical Design Decision 1 - N-tier architecture/3-Tier architecture? etc.
+* Logical Design Decision 2 - Monolithic Persistent Database/scale-out DB? etc.
+* Logical Design Decision n - Message Queue for connecting Application Layer to Database Layer?  Web-Tier requires Loadbalancer
+<need a good diagram here describing the functional blocks>
+= Physical Design
+* Physical Design Decision 1 - Choices of platform (AWS, Azure), Container (Rocket, Docker), coding language, DB, App, Web, LB, etc.
+* Physical Design Decision 2 - 
+* Physical Design Decision n - 
+<need a good diagram here describing the physical blocks>

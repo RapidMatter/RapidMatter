@@ -3,6 +3,3 @@ Describes how to install, configure and run the RapidMatter software on the appr
 * Instructions on how to build the platform and get it ready (On-Prem and Public Cloud)
 * Instructions on how to compile/install the RapidMatter code
 * Instructions on how to bring the RapidMatter software online and start serving customers
-== Separate documents
-* Instructions on how to login for the first time and build a design using the Wizard (User Guide)
-* Training on the principles and how to correctly build an Enterprise Architecture Design for Infrastructure (Training)

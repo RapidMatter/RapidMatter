@@ -1,5 +1,5 @@
 The following data models are required.
-<need diagram to show object linkage>
+* NOTE <need diagram to show object linkage>
 = Design Library (available to every user)
 The Design Library is the repository of candidate design choices for each architecture design project.  This is a body of knowledge and wisdom that is maintained by the expert enterprise architects.
 == Conceptual Model Object
@@ -23,7 +23,7 @@ The Design Library is the repository of candidate design choices for each archit
 * Impact 1..n : <Impact of Logical Design Decision>
 * Risks 1..n : <Identified Risks>
 * Diagram 1..n : <Link to JPG of Logical Design Decision>
-Day-1: Need to decide how to handle images for all objects.
+NOTE Day-1: Need to decide how to handle images for all objects.  Probably use URL to JPG.
 * Change Control 1..n : <Draft, Approved, etc.>
 * Tags 1..n : <Tag Text>
 * Notes 1..n : <Text>
@@ -197,8 +197,8 @@ If an architect wants to share their Project Repository design decisions outside
 * Author: <Profile ID>
 * Reviewer: <Profile ID>
 == Project Risks
-* Day-1: Risk field of each design decision will be collated into a single Risk object for the project with a manual field for defining Risk mitigation.
-* Day-2: Need to decide how to collate risk information and show risk mitigation through SOPs, Tests, etc.
+* NOTE Day-1: Risk field of each design decision will be collated into a single Risk object for the project with a manual field for defining Risk mitigation.
+* NOTE Day-2: Need to decide how to collate risk information and show risk mitigation through SOPs, Tests, etc.
 * Reference Project Risk ID 1..n : <Project Risk ID>
 * Reference Project Logical/Physical Design Decision ID: <Link to Project Logical/Physical Design Decision ID>
 * Risk Severity : Critical, Major, Medium, Minor
@@ -210,9 +210,9 @@ If an architect wants to share their Project Repository design decisions outside
 * Notes 1..n : <Text>
 * Author: <Profile ID>
 * Reviewer: <Profile ID>
-== Bill of Materials
-* Day-1: probably will be a manual list
-* Day-2: Need to decide how to automatically roll up the hardware, software and licencing quantities.
+== Project Bill of Materials
+* NOTE Day-1: probably will be a manual list
+* NOTE Day-2: Need to decide how to automatically roll up the hardware, software and licencing quantities.
 * Project BoM ID 1..n : <Unique BoM Item to Project and Customer>
 * Linked ID: <Global Unique Identifier of BoM Object>
 * Reference Project Physical Design Decision ID: <Link to Project Physical Design Decision ID>
@@ -252,8 +252,8 @@ https://vcdx133.files.wordpress.com/2015/06/rapidmatter_solution_metrics_6.jpg
 https://vcdx133.files.wordpress.com/2015/06/rapidmatter_solution_metrics_7.jpg
 * Day-2: Analysis 8 - Design Score Rating - some mechanism to rate the complexity/simplicity of the design heuristically against some model/algorithm
 == Project Blueprints
-* Day-1: Reference uploaded JPEGs manually prepared by the project architect
-* Future feature - ability to autogenerate diagrams based upon the physical design decisions specified
+* NOTE Day-1: Reference uploaded JPEGs manually prepared by the project architect
+* NOTE Future feature - ability to autogenerate diagrams based upon the physical design decisions specified
 * Project Blueprint ID 1..n : <Unique to Project and Customer>
 * Project Blueprint Description : <Text>
 * Diagram: <Link to JPG of Blueprint>

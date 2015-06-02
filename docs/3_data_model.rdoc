@@ -8,9 +8,9 @@ The Design Library is the repository of candidate design choices for each archit
 * Description: <Description of Object>
 * Type: Business Goal, Requirement, Constraint or Assumption
 * Design Quality: Availability, Manageability, Performance, Recoverability, Security
-* Change Control: <Draft, Approved, etc.>
-* Tags: <Tag Text>
-* Notes: <Text>
+* Change Control 1..n : <Draft, Approved, etc.>
+* Tags 1..n : <Tag Text>
+* Notes 1..n : <Text>
 * Author: <Profile ID>
 * Reviewer: <Profile ID>
 == Logical Design Decision Object
@@ -254,3 +254,11 @@ https://vcdx133.files.wordpress.com/2015/06/rapidmatter_solution_metrics_7.jpg
 == Project Blueprints
 * Day-1: Reference uploaded JPEGs manually prepared by the project architect
 * Future feature - ability to autogenerate diagrams based upon the physical design decisions specified
+* Project Blueprint ID 1..n : <Unique to Project and Customer>
+* Project Blueprint Description : <Text>
+* Diagram: <Link to JPG of Blueprint>
+* Change Control 1..n : <Draft, Approved, etc.>
+* Tags 1..n : <Tag Text>
+* Notes 1..n : <Text>
+* Author: <Profile ID>
+* Reviewer: <Profile ID>

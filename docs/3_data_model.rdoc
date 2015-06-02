@@ -1,5 +1,6 @@
 The following data model is required.
 * NOTE <need diagram to show object linkage>
+* NOTE <need to add naming standard and abbreviations objects>
 = Design Library (available to every user)
 The Design Library is the repository of candidate design choices for each architecture design project.  This is a body of knowledge and wisdom that is maintained by the expert enterprise architects.
 == Conceptual Model Object

@@ -13,9 +13,10 @@ Describes the software architecture design of RapidMatter with the Design Concep
 == Software Design Constraints
 == Software Design Assumptions
 = Logical Design
-Functional Design described here: https://github.com/RapidMatter/RapidMatter/blob/master/docs/1_design_concept.rdoc
-Use-Cases described here: https://github.com/RapidMatter/RapidMatter/blob/master/docs/2_use_cases.rdoc
-UI interface described here: https://github.com/RapidMatter/RapidMatter/blob/master/docs/4_user_interface.rdoc
+* NOTE: Functional Design described here: https://github.com/RapidMatter/RapidMatter/blob/master/docs/1_design_concept.rdoc
+* NOTE: Use-Cases described here: https://github.com/RapidMatter/RapidMatter/blob/master/docs/2_use_cases.rdoc
+* NOTE: Data Model described here: https://github.com/RapidMatter/RapidMatter/blob/master/docs/3_data_model.rdoc
+* NOTE: UI interface described here: https://github.com/RapidMatter/RapidMatter/blob/master/docs/4_user_interface.rdoc
 * Logical Design Decision 1 - N-tier architecture/3-Tier architecture? etc.
 * Logical Design Decision 2 - Monolithic Persistent Database/scale-out DB? etc.
 * Logical Design Decision n - Message Queue for connecting Application Layer to Database Layer?  Web-Tier requires Loadbalancer

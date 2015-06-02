@@ -65,7 +65,7 @@ NOTE Day-1: Need to decide how to handle images for all objects.  Probably use U
 * Reviewer: <Profile ID>
 = Supporting Documentation Library (available to every user)
 The Supporting Documentation Library is the repository of Implementation Plans, Configuration Guides, Test Plans and Standard Operating procedures.  These match the Physical Design decisions of each project with a one-to-one or one-to-many relationship.
-== Implementation Plans
+== Implementation Plans Object
 * ID 1..n : <Global Unique Identifier of Object>
 * Task Name : <Text>
 * Task Description : <Text>
@@ -75,7 +75,7 @@ The Supporting Documentation Library is the repository of Implementation Plans, 
 * Notes 1..n : <Text>
 * Author: <Profile ID>
 * Reviewer: <Profile ID>
-== Configuration Guides
+== Configuration Guides Object
 * ID 1..n : <Global Unique Identifier of Object>
 * Configuration Task Name : <Text>
 * Configuration Task Description : <Text>
@@ -87,7 +87,7 @@ The Supporting Documentation Library is the repository of Implementation Plans, 
 * Notes 1..n : <Text>
 * Author: <Profile ID>
 * Reviewer: <Profile ID>
-== Configuration Settings (companion to Configuration Guide)
+== Configuration Settings Object (companion to Configuration Guide)
 * ID: <Global Unique Identifier of Object>
 * Reference Configuration Guide ID: <Link to Configuration Guide ID>
 * Setting Name 1..n : <Text>
@@ -97,7 +97,7 @@ The Supporting Documentation Library is the repository of Implementation Plans, 
 * Notes 1..n : <Text>
 * Author: <Profile ID>
 * Reviewer: <Profile ID>
-== Test Plans
+== Test Plans Object
 * ID 1..n : <Global Unique Identifier of Object>
 * Test Type : Functional, Integration, Recovery, Performance
 * Test Name : <Text>
@@ -112,7 +112,7 @@ The Supporting Documentation Library is the repository of Implementation Plans, 
 * Notes 1..n : <Text>
 * Author: <Profile ID>
 * Reviewer: <Profile ID>
-== Standard Operating Procedures
+== Standard Operating Procedures Object
 * ID 1..n : <Global Unique Identifier of Object>
 * SOP Name : <Text>
 * SOP Description : <Text>
@@ -197,7 +197,7 @@ If an architect wants to share their Project Repository design decisions outside
 * Notes 1..n : <Text>
 * Author: <Profile ID>
 * Reviewer: <Profile ID>
-== Project Risks
+== Project Risks Object
 * NOTE Day-1: Risk field of each design decision will be collated into a single Risk object for the project with a manual field for defining Risk mitigation.
 * NOTE Day-2: Need to decide how to collate risk information and show risk mitigation through SOPs, Tests, etc.
 * Reference Project Risk ID 1..n : <Project Risk ID>
@@ -211,7 +211,7 @@ If an architect wants to share their Project Repository design decisions outside
 * Notes 1..n : <Text>
 * Author: <Profile ID>
 * Reviewer: <Profile ID>
-== Project Bill of Materials
+== Project Bill of Materials Object
 * NOTE Day-1: probably will be a manual list
 * NOTE Day-2: Need to decide how to automatically roll up the hardware, software and licencing quantities.
 * Project BoM ID 1..n : <Unique BoM Item to Project and Customer>
@@ -224,7 +224,7 @@ If an architect wants to share their Project Repository design decisions outside
 * Notes 1..n : <Text>
 * Author: <Profile ID>
 * Reviewer: <Profile ID>
-== Configuration Settings (companion to Configuration Guide)
+== Configuration Settings Object (companion to Configuration Guide)
 * Project Configuration Settings ID 1..n : <Unique Configuration Setting to Project and Customer>
 * Linked ID: <Global Unique Identifier of Configuration Guide Object>
 * Linked ID: <Global Unique Identifier of Configuration Setting Object>
@@ -236,7 +236,7 @@ If an architect wants to share their Project Repository design decisions outside
 * Notes 1..n : <Text>
 * Author: <Profile ID>
 * Reviewer: <Profile ID>
-== Project Solution Metrics
+== Project Solution Metrics Object
 * Analysis 1 - Conceptual Model numerical totals of Business Goals, Requirements, Constraints and Assumptions
 https://vcdx133.files.wordpress.com/2015/06/rapidmatter_solution_metrics_1.jpg
 * Analysis 2 - Design Quality (RAMPS) numerical totals from Conceptual Mode, Logical Design and Physical Design
@@ -252,7 +252,7 @@ https://vcdx133.files.wordpress.com/2015/06/rapidmatter_solution_metrics_6.jpg
 * Analysis 7 - Supporting Documents matrix map of Physical Design decisions to Implementation Tasks, Configuration Tasks, Tests and SOPs
 https://vcdx133.files.wordpress.com/2015/06/rapidmatter_solution_metrics_7.jpg
 * Day-2: Analysis 8 - Design Score Rating - some mechanism to rate the complexity/simplicity of the design heuristically against some model/algorithm
-== Project Blueprints
+== Project Blueprints Object
 * NOTE Day-1: Reference uploaded JPEGs manually prepared by the project architect
 * NOTE Future feature - ability to autogenerate diagrams based upon the physical design decisions specified
 * Project Blueprint ID 1..n : <Unique to Project and Customer>

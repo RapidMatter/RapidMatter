@@ -25,9 +25,9 @@ Mission Statement: Vendor-Agnostic Enterprise-Architecture-Design-as-a-Service f
 == Day 1 Features
 * Functioning User Interface with User Registration and Project Repository.
 * Functioning Design Wizard with Beginner, Advanced and Expert modes for Private Cloud and Data Center Virtualisation.
-* Functioning Design Database populated with Conceptual Model options (Business Goals, Requirements, Constraints & Assumptions), Logical Design options (Cloud Management Platform, Compute, Network, Storage, Virtual Machine, Security, Backup/Recovery, BC/DR, Virtual Infrastructure Management) and Physical Design options.
+* Functioning Design Library populated with Conceptual Model options (Business Goals, Requirements, Constraints & Assumptions), Logical Design options (Cloud Management Platform, Compute, Network, Storage, Virtual Machine, Security, Backup/Recovery, BC/DR, Virtual Infrastructure Management) and Physical Design options.
 * Initially support Microsoft, VMware, Cisco, EMC and Nutanix engineering specifications for physical design (because I have the expertise to populate the design database with this content and validate it).
-* Functioning Supporting Documents database (Implementation Plan, Configuration Guide, Test Plan, Standard Operating Procedures, Blueprints).
+* Functioning Supporting Documents Library (Implementation Plan, Configuration Guide, Test Plan, Standard Operating Procedures, Blueprints).
 * Functioning Solution Metrics analysis of each design to measure the chances of success and mitigate risk.
 * Functioning Design Pack Export to PDF for design review and implementation.
 * To have CCAr, VCDX and NPX certified enterprise architects contribute to the design database and supporting documents database.

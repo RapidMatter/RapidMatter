@@ -1,2 +1,2 @@
-Training on the principles and how to correctly build an Enterprise Architecture Design for Infrastructure (Training)
-Tie this to websites and vBrownbag videos
+* Training on the principles and how to correctly build an Enterprise Architecture Design for Infrastructure
+* Tie this to websites and vBrownbag videos

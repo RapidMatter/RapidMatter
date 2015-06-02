@@ -3,7 +3,7 @@ The following data models are required.
 = Design Library (available to every user)
 The Design Library is the repository of candidate design choices for each architecture design project.  This is a body of knowledge and wisdom that is maintained by the expert enterprise architects.
 == Conceptual Model Object
-* ID: <Global Unique Identifier of Object>
+* ID 1..n : <Global Unique Identifier of Object>
 * Title: <Name of Object>
 * Description: <Description of Object>
 * Type: Business Goal, Requirement, Constraint or Assumption
@@ -14,7 +14,7 @@ The Design Library is the repository of candidate design choices for each archit
 * Author: <Profile ID>
 * Reviewer: <Profile ID>
 == Logical Design Decision Object
-* ID: <Global Unique Identifier of Object>
+* ID 1..n : <Global Unique Identifier of Object>
 * Technology Area: Compute, Network, Storage, Backup/Recovery, Virtual Machine, Security, BC/DR, Virtual Infrastructure Management, Cloud Management Platform, End User Computing, etc.
 * Logical Design Decision Options: <Logical Design Options>
 * Logical Design Decision 1..n : <Name of Decision>
@@ -30,7 +30,7 @@ Day-1: Need to decide how to handle images for all objects.
 * Author: <Profile ID>
 * Reviewer: <Profile ID>
 == Physical Design Decision Object
-* ID: <Global Unique Identifier of Object>
+* ID 1..n : <Global Unique Identifier of Object>
 * Technology Area: Compute, Network, Storage, Backup/Recovery, Virtual Machine, Security, BC/DR, Virtual Infrastructure Management, Cloud Management Platform, End User Computing, etc.
 * Vendor: <Name of Vendor>
 * Product Suite: <Name of Product Suite>
@@ -53,7 +53,7 @@ Day-1: Need to decide how to handle images for all objects.
 * Author: <Profile ID>
 * Reviewer: <Profile ID>
 == Bill of Materials Object
-* Linked ID: <Global Unique Identifier of Object>
+* ID 1..n : <Global Unique Identifier of Object>
 * Reference Physical Design Decision ID: <Link to Physical Design Decision ID>
 * Vendor Part Number : <Text>
 * List Price : <US$>
@@ -65,7 +65,7 @@ Day-1: Need to decide how to handle images for all objects.
 = Supporting Documentation Library (available to every user)
 The Supporting Documentation Library is the repository of Implementation Plans, Configuration Guides, Test Plans and Standard Operating procedures.  These match the Physical Design decisions of each project with a one-to-one or one-to-many relationship.
 == Implementation Plans
-* ID: <Global Unique Identifier of Object>
+* ID 1..n : <Global Unique Identifier of Object>
 * Task Name : <Text>
 * Task Description : <Text>
 * Task Duration : <Hours, Days, Weeks, Months>
@@ -75,7 +75,7 @@ The Supporting Documentation Library is the repository of Implementation Plans, 
 * Author: <Profile ID>
 * Reviewer: <Profile ID>
 == Configuration Guides
-* ID: <Global Unique Identifier of Object>
+* ID 1..n : <Global Unique Identifier of Object>
 * Configuration Task Name : <Text>
 * Configuration Task Description : <Text>
 * Configuration Task Reference : <Public URL>
@@ -86,8 +86,18 @@ The Supporting Documentation Library is the repository of Implementation Plans, 
 * Notes 1..n : <Text>
 * Author: <Profile ID>
 * Reviewer: <Profile ID>
-== Test Plans
+== Configuration Settings (companion to Configuration Guide)
 * ID: <Global Unique Identifier of Object>
+* Reference Configuration Guide ID: <Link to Configuration Guide ID>
+* Setting Name 1..n : <Text>
+* Setting Value 1..n : <Possible values>
+* Change Control 1..n : <Draft, Approved, etc.>
+* Tags 1..n : <Tag Text>
+* Notes 1..n : <Text>
+* Author: <Profile ID>
+* Reviewer: <Profile ID>
+== Test Plans
+* ID 1..n : <Global Unique Identifier of Object>
 * Test Type : Functional, Integration, Recovery, Performance
 * Test Name : <Text>
 * Test Description : <Text>
@@ -102,7 +112,7 @@ The Supporting Documentation Library is the repository of Implementation Plans, 
 * Author: <Profile ID>
 * Reviewer: <Profile ID>
 == Standard Operating Procedures
-* ID: <Global Unique Identifier of Object>
+* ID 1..n : <Global Unique Identifier of Object>
 * SOP Name : <Text>
 * SOP Description : <Text>
 * SOP Frequency : <Hourly, Daily, Weekly, Monthly, Yearly>
@@ -214,7 +224,17 @@ If an architect wants to share their Project Repository design decisions outside
 * Author: <Profile ID>
 * Reviewer: <Profile ID>
 == Configuration Settings (companion to Configuration Guide)
-* To be defined (specific project configuration settings)
+* Project Configuration Settings ID 1..n : <Unique Configuration Setting to Project and Customer>
+* Linked ID: <Global Unique Identifier of Configuration Guide Object>
+* Linked ID: <Global Unique Identifier of Configuration Setting Object>
+* Reference Project Physical Design Decision ID: <Link to Project Physical Design Decision ID>
+* Setting Name 1..n : <Text>
+* Setting Value 1..n : <Text>
+* Change Control 1..n : <Draft, Approved, etc.>
+* Tags 1..n : <Tag Text>
+* Notes 1..n : <Text>
+* Author: <Profile ID>
+* Reviewer: <Profile ID>
 == Project Solution Metrics
 * Analysis 1 - Conceptual Model numerical totals of Business Goals, Requirements, Constraints and Assumptions
 https://vcdx133.files.wordpress.com/2015/06/rapidmatter_solution_metrics_1.jpg

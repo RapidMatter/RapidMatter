@@ -1,4 +1,5 @@
 The following data models are required.
+<need diagram to show object linkage>
 = Design Library (available to every user)
 The Design Library is the repository of candidate design choices for each architecture design project.  This is a body of knowledge and wisdom that is maintained by the expert enterprise architects.
 == Conceptual Model Object
@@ -46,6 +47,16 @@ Day-1: Need to decide how to handle images for all objects.
 * Configuration Guide 1..n : <Configuration Guide Reference>
 * Test Plan 1..n : <Test Plan Reference - Functional, Integration, Recovery, Performance>
 * Standard Operating Procedure 1..n : <SOP Reference>
+* Change Control 1..n : <Draft, Approved, etc.>
+* Tags 1..n : <Tag Text>
+* Notes 1..n : <Text>
+* Author: <Profile ID>
+* Reviewer: <Profile ID>
+== Bill of Materials Object
+* Linked ID: <Global Unique Identifier of Object>
+* Reference Physical Design Decision ID: <Link to Physical Design Decision ID>
+* Vendor Part Number : <Text>
+* List Price : <US$>
 * Change Control 1..n : <Draft, Approved, etc.>
 * Tags 1..n : <Tag Text>
 * Notes 1..n : <Text>
@@ -114,7 +125,7 @@ If an architect wants to share their Project Repository design decisions outside
 * Project Description: <Project Description>
 * Tags: <Tag Text>
 == Project Conceptual Model Object
-* Project Conceptual Model ID: <Unique to Project and Customer>
+* Project Conceptual Model ID 1..n : <Unique to Project and Customer>
 * Linked ID: <Global Unique Identifier of Object>
 * Title: <Name of Object>
 * Description: <Description of Object>
@@ -123,13 +134,13 @@ If an architect wants to share their Project Repository design decisions outside
 * Requirements Conflict: <None or Yes>
 * Requirements Reference: <Optional - Project Conceptual Model Business Goal Reference>
 * Requirements Conflict Resolution: <If yes, explain>
-* Change Control: <Draft, Approved, etc.>
-* Tag: <Tag Text>
-* Notes: <Text>
+* Change Control 1..n : <Draft, Approved, etc.>
+* Tags 1..n : <Tag Text>
+* Notes 1..n : <Text>
 * Author: <Profile ID>
 * Reviewer: <Profile ID>
 == Project Logical Design Decision Object
-* Project Logical Design Decision ID: <Unique to Project and Customer>
+* Project Logical Design Decision ID 1..n : <Unique to Project and Customer>
 * Linked ID: <Global Unique Identifier of Object>
 * Technology Area: Compute, Network, Storage, Backup/Recovery, Virtual Machine, Security, BC/DR, Virtual Infrastructure Management, Cloud Management Platform, End User Computing, etc.
 * Logical Design Decision Options: <Logical Design Options>
@@ -142,13 +153,13 @@ If an architect wants to share their Project Repository design decisions outside
 * Impact: <Impact of Logical Design Decision>
 * Risks: <Identified Risks>
 * Diagram: <Link to JPG of Logical Design Decision>
-* Change Control: <Draft, Approved, etc.>
-* Tag: <Tag Text>
-* Notes: <Text>
+* Change Control 1..n : <Draft, Approved, etc.>
+* Tags 1..n : <Tag Text>
+* Notes 1..n : <Text>
 * Author: <Profile ID>
 * Reviewer: <Profile ID>
 == Project Physical Design Decision Object
-* Project Physical Design Decision ID: <Unique to Project and Customer>
+* Project Physical Design Decision ID 1..n : <Unique to Project and Customer>
 * Linked ID: <Global Unique Identifier of Object>
 * Technology Area: Compute, Network, Storage, Backup/Recovery, Virtual Machine, Security, BC/DR, Virtual Infrastructure Management, Cloud Management Platform, End User Computing, etc.
 * Vendor: <Name of Vendor>
@@ -170,17 +181,38 @@ If an architect wants to share their Project Repository design decisions outside
 * Configuration Settings: <Configuration Settings Reference>
 * Test Plan: <Test Plan Reference - Functional, Integration, Recovery, Performance>
 * Standard Operating Procedure: <SOP Reference>
-* Change Control: <Draft, Approved, etc.>
-* Tag: <Tag Text>
-* Notes: <Text>
+* Change Control 1..n : <Draft, Approved, etc.>
+* Tags 1..n : <Tag Text>
+* Notes 1..n : <Text>
 * Author: <Profile ID>
 * Reviewer: <Profile ID>
 == Project Risks
 * Day-1: Risk field of each design decision will be collated into a single Risk object for the project with a manual field for defining Risk mitigation.
 * Day-2: Need to decide how to collate risk information and show risk mitigation through SOPs, Tests, etc.
+* Reference Project Risk ID 1..n : <Project Risk ID>
+* Reference Project Logical/Physical Design Decision ID: <Link to Project Logical/Physical Design Decision ID>
+* Risk Severity : Critical, Major, Medium, Minor
+* Risk Description : <Text>
+* Risk Remedy : <Text>
+* Risk Mitigation : <Reference SOP, Test, Task>
+* Change Control 1..n : <Draft, Approved, etc.>
+* Tags 1..n : <Tag Text>
+* Notes 1..n : <Text>
+* Author: <Profile ID>
+* Reviewer: <Profile ID>
 == Bill of Materials
 * Day-1: probably will be a manual list
 * Day-2: Need to decide how to automatically roll up the hardware, software and licencing quantities.
+* Project BoM ID 1..n : <Unique BoM Item to Project and Customer>
+* Linked ID: <Global Unique Identifier of BoM Object>
+* Reference Project Physical Design Decision ID: <Link to Project Physical Design Decision ID>
+* Quantity : <Number>
+* Estimated Item Price : <US$>
+* Change Control 1..n : <Draft, Approved, etc.>
+* Tags 1..n : <Tag Text>
+* Notes 1..n : <Text>
+* Author: <Profile ID>
+* Reviewer: <Profile ID>
 == Configuration Settings (companion to Configuration Guide)
 * To be defined (specific project configuration settings)
 == Project Solution Metrics
